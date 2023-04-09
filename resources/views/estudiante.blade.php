@@ -9,11 +9,17 @@
     <link href="/resources/css/app.css" rel="stylesheet">
 </head>
 <body>
-   <h1>IMPORTAR DATOS</h1>
-    <form action="{{url('estudiante/importar')}}" method="POST" enctype="multipart/form-data">
-      <input type="file" name="documento">
-      <button>importar</button>
-      <H1>La negra hace 2 x 1 harry!!!!</H1>
-    </form>  
+    <div class="cuadro">
+        <span></span>
+        <h1>IMPORTAR DATOS</h1>
+        <div class="botones">
+            <form action="{{url('estudiante/importar')}}" method="POST" enctype="multipart/form-data">
+            <input type="file" name="documento">
+            <button>importar</button>
+            <h2>La negra hace 2 x 1 harry!!!!</h2>
+            </form>
+        </div>
+    </div>  
+        
 </body>
 </html>
